@@ -35,7 +35,7 @@ jobs:
 
     steps:
       - name: 저장소 체크아웃
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: CodeQL 초기화
         uses: github/codeql-action/init@v4
