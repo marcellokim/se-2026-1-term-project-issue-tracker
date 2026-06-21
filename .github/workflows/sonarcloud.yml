@@ -38,7 +38,7 @@ jobs:
 
       - name: 저장소 체크아웃
         if: steps.config.outputs.enabled == 'true'
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
