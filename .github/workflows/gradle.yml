@@ -33,7 +33,7 @@ jobs:
           java-version: 21
 
       - name: Gradle 캐시 설정
-        uses: gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92
 
       - name: 테스트 파이프라인 실행
         run: ./gradlew --stacktrace clean ci
@@ -67,7 +67,7 @@ jobs:
           java-version: 21
 
       - name: Gradle 캐시 설정
-        uses: gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92
 
       - name: Oracle Docker 통합 테스트 실행
         env:
