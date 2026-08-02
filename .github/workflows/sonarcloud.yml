@@ -44,7 +44,7 @@ jobs:
 
       - name: JDK 21 설정
         if: steps.config.outputs.enabled == 'true'
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v5.6.0
         with:
           distribution: temurin
           java-version: 21
